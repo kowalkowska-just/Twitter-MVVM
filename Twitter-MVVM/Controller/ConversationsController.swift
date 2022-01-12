@@ -16,8 +16,15 @@ class ConversationsController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        view.backgroundColor = .systemYellow
+        configureUI()
     }
     
     //MARK: - Helper functions
+    
+    private func configureUI() {
+        view.backgroundColor = .white
+        
+        
+        self.navigationItem.title = "Messages"
+    }
 }
