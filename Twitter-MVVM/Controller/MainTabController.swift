@@ -24,20 +24,21 @@ class MainTabController: UITabBarController {
     //MARK: - Helper functions
     
     private func configureViewController() {
-        let feed = FeedController()
-        feed.tabBarItem.image = UIImage(named: "home_unselected")
+        let feed = templateNavigationController(image: "home_unselected", rootViewController: FeedController())
         
-        let explore = ExploreController()
-        explore.tabBarItem.image = UIImage(named: "search_unselected")
+        let explore = templateNavigationController(image: "search_unselected", rootViewController: ExploreController())
         
-        let notifications = NotificationsController()
-        notifications.tabBarItem.image = UIImage(named: "like_unselected")
+        let notifications = templateNavigationController(image: "like_unselected", rootViewController: NotificationsController())
         
-        let conversations = ConversationsController()
-        conversations.tabBarItem.image = UIImage(named: "ic_mail_outline_white_2x-1")
+        let conversations = templateNavigationController(image: "ic_mail_outline_white_2x-1", rootViewController: ConversationsController())
         
         viewControllers = [feed, explore, notifications, conversations]
     }
 
+    private func templateNavigationController(image: String, rootViewController: UIViewController) -> UINavigationController {
+        let nav = UINavigationController(rootViewController: rootViewController)
+        nav.tabBarItem.image = UIImage(named: image)
+        return nav
+    }
 
 }
