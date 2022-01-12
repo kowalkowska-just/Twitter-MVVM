@@ -17,6 +17,7 @@
 		D121906F278F5498002AC5A9 /* ExploreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D121906E278F5498002AC5A9 /* ExploreController.swift */; };
 		D1219071278F54B2002AC5A9 /* NotificationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219070278F54B2002AC5A9 /* NotificationsController.swift */; };
 		D1219073278F54D3002AC5A9 /* ConversationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219072278F54D3002AC5A9 /* ConversationsController.swift */; };
+		D1219079278F8B95002AC5A9 /* Extension-Anchor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1219078278F8B95002AC5A9 /* Extension-Anchor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		D121906E278F5498002AC5A9 /* ExploreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreController.swift; sourceTree = "<group>"; };
 		D1219070278F54B2002AC5A9 /* NotificationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsController.swift; sourceTree = "<group>"; };
 		D1219072278F54D3002AC5A9 /* ConversationsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsController.swift; sourceTree = "<group>"; };
+		D1219078278F8B95002AC5A9 /* Extension-Anchor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-Anchor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		D1219063278DE857002AC5A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				D1219078278F8B95002AC5A9 /* Extension-Anchor.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				D121906F278F5498002AC5A9 /* ExploreController.swift in Sources */,
 				D121906B278DEF7C002AC5A9 /* MainTabController.swift in Sources */,
 				D1219052278DE819002AC5A9 /* SceneDelegate.swift in Sources */,
+				D1219079278F8B95002AC5A9 /* Extension-Anchor.swift in Sources */,
 				D121906D278F541D002AC5A9 /* FeedController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
